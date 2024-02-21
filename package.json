@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && npx tsc"
+  },
+  "dependencies": {
+    "@opentelemetry/api-logs": "^0.48.0",
+    "@opentelemetry/exporter-logs-otlp-grpc": "^0.48.0",
+    "@opentelemetry/resources": "^1.21.0",
+    "@opentelemetry/sdk-logs": "^0.48.0",
+    "@opentelemetry/semantic-conventions": "^1.21.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3",
+    "winston-transport": "^4.7.0"
+  }
+}
